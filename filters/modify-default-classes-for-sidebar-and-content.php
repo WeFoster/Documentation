@@ -9,7 +9,7 @@ function wefoster_child_change_main_class() {
     return $classes;
 
 }
-add_filter( 'wff_content_class', 'wefoster_child_main_class' );
+add_filter( 'wff_main_class', 'wefoster_child_main_class' );
 
 function wefoster_child_change_sidebar_class() {
 

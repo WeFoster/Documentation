@@ -28,3 +28,4 @@ function wff_bp_avatar_sizes() {
 		define ( 'BP_AVATAR_ORIGINAL_MAX_FILESIZE', 5120000 );
 	}
 }
+add_action( 'bp_init', 'wff_bp_avatar_sizes' );

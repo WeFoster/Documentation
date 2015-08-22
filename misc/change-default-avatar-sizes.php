@@ -2,8 +2,7 @@
 /**
  * Add the code below to your WeFoster Child Theme
  */
- 
-function wff_bp_avatar_sizes() {
+
 	if ( !defined( 'BP_AVATAR_THUMB_WIDTH' ) ) {
 		define( 'BP_AVATAR_THUMB_WIDTH', 120 );
 	}
@@ -27,5 +26,3 @@ function wff_bp_avatar_sizes() {
 	if ( !defined( 'BP_AVATAR_ORIGINAL_MAX_FILESIZE' ) ) {
 		define ( 'BP_AVATAR_ORIGINAL_MAX_FILESIZE', 5120000 );
 	}
-}
-add_action( 'bp_init', 'wff_bp_avatar_sizes' );

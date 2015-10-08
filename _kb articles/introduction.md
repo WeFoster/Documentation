@@ -1,13 +1,15 @@
 ---
 ID: 21
 post_title: Introduction
-author: Bowe Frankema
+author: WeFoster
 post_date: 2015-09-07 21:14:26
 post_excerpt: ""
 layout: wpkb-article
 permalink: >
-  https://documentation.wefoster.co/kb/introduction/
+  http://documentation.wefoster.co/kb/introduction/
 published: true
+further_reading:
+  - ""
 ---
 When we sat down to create a new theme framework written from the ground up with BuddyPress in mind, we already had 5 years of experience under our belts developing BuddyPress communities and products. It took us two years of development, several rewrites and extensive testing to get to the version of the theme you’re seeing today.
 
@@ -64,6 +66,12 @@ Not many themes use filters and actions as heavily as the WeFoster theme. There 
 On first look you might get lost trying to figure out how templates get load and from where, but once you get the hang of of it, we’ll know you’ll love it.
 
 There’s a reason why products like Easy Digital Downloads, WooCommerce and the StudioPress framework use a lot of the same template foundations for their projects.
+
+## Credits
+
+The WeFoster Theme would not have been possible without the tireless efforts of these Open Source projects and their talented developers:
+
+The <a href="http://buddypress.org" target="_blank">BuddyPress</a> Development team and everyone who contributes to BuddyPress, We <3 you guys! <a href="https://github.com/aristath" target="_blank">Aristeides Stathopoulos</a> who made Kirki, and helped improve our code. <a href="https://hmn.md/" target="_blank">HumanMade</a> for their support and the awesome WPThumb library. <a href="http://presscrew.com" target="_blank">Marshall Sorenson</a>, Boone B Georges, Ray and the rest of the <a href="http://cbox.org" target="_blank">CBOX Team</a>. <a href="http://buddyboss.com" target="_blank">BuddyBoss</a>, <a href="http://buddydev.com" target="_blank">BuddyDev</a>, <a href="http://themekraft.com" target="_blank">ThemeKraft</a>, <a href="http://webdevstudios.com" target="_blank">WebDevStudios</a> for pushing BuddyPress solutions forward!
 
 ## Feedback, Support & Contributions
 

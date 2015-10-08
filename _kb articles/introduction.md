@@ -74,7 +74,7 @@ The WeFoster Theme would not have been possible without the tireless efforts of 
 *   The <a href="http://buddypress.org" target="_blank">BuddyPress</a> Development team and everyone who contributes to BuddyPress, We <3 you guys! 
 *   <a href="https://github.com/aristath" target="_blank">Aristeides Stathopoulos</a> who made Kirki, and helped improve our code. <a href="https://hmn.md/" target="_blank">HumanMade</a> for their support and the awesome WPThumb library. 
 *   <a href="http://presscrew.com" target="_blank">Marshall Sorenson</a>, Boone B Georges, Ray and the rest of the <a href="http://cbox.org" target="_blank">CBOX Team</a>. 
-*   <a href="http://buddyboss.com" target="_blank">BuddyBoss</a>, <a href="http://buddydev.com" target="_blank">BuddyDev</a>, <a href="http://themekraft.com" target="_blank">ThemeKraft</a>, <a href="http://webdevstudios.com" target="_blank">WebDevStudios</a> for pushing BuddyPress solutions forward!
+*   <a href="http://buddyboss.com" target="_blank">BuddyBoss</a>, <a href="http://buddydev.com" target="_blank">BuddyDev</a> and <a href="http://themekraft.com" target="_blank">ThemeKraft</a>, <a href="http://webdevstudios.com" target="_blank">WebDevStudios</a> for constantly building better BuddyPress solutions!
 
 ## Feedback, Support & Contributions
 

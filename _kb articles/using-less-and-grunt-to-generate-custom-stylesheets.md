@@ -72,40 +72,9 @@ This method allows you to extend the Default CSS and will NOT remove the WeFoste
 2.  At the top of the file uncomment `@import "extend.less";`
 3.  Save your main.less file and PrePros or Grunt will automatically generate your CSS.
 
-## Example Code
-
-Note: Please make sure that you have the followed the Getting Started tutorial and Node.js and Grunt are installed on your computer.
-
-If you are using the WeFoster Child Theme the code below is already present in your theme :-)
-
-### Importing the WeFoster less styles into your LESS file.
-
-In your child theme create a new file:
-
-    assets/less/main.less
-    
-
-Inside this file import the LESS styles from the WeFoster theme.
-
-TODO: IMPORT LESS
-
-### Using Grunt to compile your new stylesheet
-
-Now open up or create your grunt configuration file bgruntfile.jsb and add some lines to configure grunt properly.
-
-### Adding a function to your child theme
-
-The function below deregisters the WeFoster parent stylesheet and enqueues your custom stylesheet that only contains the CSS you need for your project.
-
-TODO: FUNCTIONS.PHP EXAMPLE
-
-## Adding Your Own Custom CSS
-
-Now that you have enqueued a custom stylesheet from your child theme you can easily add new CSS inside this .LESS file. Take a look at our LESS documentation to learn more.
-
 ## Alternative Workflows
 
-There are other ways to compile LESS files into CSS like CodeKit, Gulp and PHP, so feel free to pick the tools that fit your workflow. Also take a look at our documentation regarding using Child Themes.
+There are other ways to compile LESS files into CSS like CodeKit, Gulp and PHP, so feel free to pick the tools that fit your workflow and share them with the community!
 
  [1]: https://github.com/WeFoster/wefoster-child/archive/master.zip
  [2]: https://prepros.io/

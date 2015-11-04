@@ -3,13 +3,18 @@ ID: 30
 post_title: >
   Using LESS and Grunt to generate custom
   stylesheets
-author: WeFoster
-post_date: 2015-09-07 21:23:14
-post_excerpt: ""
+author:
+  - Bowe Frankema
+post_date:
+  - 2015-09-07 21:23:14
+post_excerpt:
+  - ""
 layout: wpkb-article
-permalink: >
-  https://documentation.wefoster.co/kb/using-less-and-grunt-to-generate-custom-stylesheets/
+permalink:
+  - ""
 published: true
+further_reading:
+  - ""
 ---
 Every project has different needs and thus we wanted to provide you with a flexible solution to quickly generate CSS files that only contain the compiled CSS that you need.
 
@@ -23,9 +28,9 @@ Open up `functions.php` in the WeFoster Child Theme and uncomment/add the follow
 
 Now we are ready to start compiling the actually LESS!.
 
-## Using a LESS Compilers
+## Using a LESS Compiler
 
-Currently there are two support methods to quicky start using LESS in the WeFoster Theme. If you are new to LESS we recommened the Simple method with PrePros, for experienced developers Node/Grunt might be more powerful.
+Currently there are two supported methods to quickly start using LESS in the WeFoster Theme. If you are new to LESS we recommend the Simple method with PrePros, for experienced developers Node/Grunt might be more powerful.
 
 ## LESS Compiling with PrePros (simple)
 
@@ -59,7 +64,7 @@ In your LESS file you can import the WeFoster Parent Theme .less files and use t
 
 ### Extending the WeFoster Parent Style (For Small Changes only)
 
-This method allows you to extend the Default CSS and will NOT remove the WeFoster Parent CSS styles. This means that your custom CSS will be loaded after the Parent CSS but you can still use LESS and our theme variables easily.
+This method allows you to extend the Default CSS and will NOT remove the WeFoster Parent CSS styles. This means that your custom CSS will be loaded after the Parent CSS but you can still use LESS and our theme variables easily. This is how virtually all other WordPress themes currently work.
 
 `define('WEFOSTER_LESS_METHOD', 'extend');`
 

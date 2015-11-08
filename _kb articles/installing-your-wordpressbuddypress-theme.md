@@ -1,7 +1,7 @@
 ---
 ID: 97
 post_title: >
-  Installing your WordPress/BuddyPress
+  Installing your WordPress or BuddyPress
   Theme
 author: Bowe Frankema
 post_date: 2015-11-08 14:29:34

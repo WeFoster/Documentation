@@ -37,8 +37,7 @@ Currently there are two supported methods to quickly start using LESS in the WeF
 1.  Grab the WeFoster Child Theme and put it directly into your /wp-content/themes/ folder. [Download the WeFoster Child Theme][1]
 2.  Download and install [PrePros; a free LESS/JS compiler. ][2]
 3.  Open PrePros and click "Add Project". Select the `wefoster-child` folder you just downloaded.
-4.  PrePros is now set up. 
-5.  Type `grunt watch` to start developing your custom child theme
+4.  PrePros is now set up and you are ready to go!
 
 ## LESS Compiling with Node.js and Grunt (advanced)
 
@@ -46,7 +45,7 @@ Currently there are two supported methods to quickly start using LESS in the WeF
 2.  Make sure you have **node.js** installed on your computer
 3.  Using the terminal go inside a your new theme folder `cd wefoster-child` 
 4.  Run the following command `npm install -g npm@latest`
-5.  Type `grunt watch` to start developing your custom child theme
+5.  Type `grunt watch` and you are ready to go!
 
 ## Using LESS in your Child Theme
 

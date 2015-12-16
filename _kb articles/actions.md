@@ -125,5 +125,4 @@ add_action( 'close_page_content','wfc_after_page_example' );
   }
   add_action( 'open_body', 'wfc_logged_in_message_example' );
 ````` 
-
 [/gfm]

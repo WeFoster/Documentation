@@ -1,13 +1,15 @@
 ---
 ID: 37
 post_title: WeFoster Theme Documentation
-author: Bowe Frankema
+author: WeFoster
 post_date: 2015-09-07 21:37:56
 post_excerpt: ""
 layout: wpkb-article
 permalink: >
   https://documentation.wefoster.co/kb/wefoster-theme-documentation/
 published: true
+wpkb_rating_perc:
+  - "100"
 ---
 Welcome to the WeFoster theme documentation. This is where you’ll find everything you need to quickly launch your community using the WeFoster theme. Let’s get started!
 

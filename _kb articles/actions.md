@@ -30,7 +30,7 @@ Simply do a search for do_action inside our GitHub repository to quick see an ov
 
 Maybe you are used to overwrite a template from your parent theme and then adding the html/php in the template inside your child theme. Like this:
 
-[github file = "WeFoster/Documentation/blob/master/Code%20Examples/actions/add-default-classes-for-sidebar-and-content.php" start_line = "1" end_line = "100"]
+[github file = "WeFoster/Documentation/blob/master/Code%20Examples/actions/add-default-classes-for-sidebar-and-content.php"]
 
 This is some custom content after my page content is shown. I'm adding this by overwriting my template via a Child Theme!
 

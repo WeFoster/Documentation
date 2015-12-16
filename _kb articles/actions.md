@@ -74,7 +74,7 @@ function wfc_after_page_example() { ?>
 <?php
 }
 add_action( 'close_page_content','wfc_after_page_example' );
-<//pre>
+<pre>
 
 This is a much better solution because overwriting templates means more maintenance! More important your templates will not be updated when the WeFoster Theme is updated so your template files need maintenance and might get out of date. So use actions to add your custom content to.
 

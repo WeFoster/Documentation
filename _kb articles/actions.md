@@ -21,7 +21,7 @@ You can easily add content to your theme using one of the 50+ do_actions found i
 
 Simply do a search for do_action inside our GitHub repository to quick see an overview of all the places where you can insert custom content. Here’s a shortcut to that search:
 
-TODO: Insert GitHub search
+<a target="_blank" href="https://github.com/WeFoster/wefoster/search?utf8=%E2%9C%93&q=do_action">Show WeFoster do_actions</a>
 
 ## Why you should actions instead of overwriting templates
 
@@ -29,30 +29,89 @@ TODO: Insert GitHub search
 
 Maybe you are used to overwrite a template from your parent theme and then adding the html/php in the template inside your child theme. Like this:
 
-TODO: Insert code example of wrong method
+````
+        <?php get_template_part('templates/loops/content', 'page'); ?>
 
-Actions are a much better way to do the same.
+        <!-- Doing it Wrong -->
+              <p>This is some custom content after my page content is shown. I'm adding this by overwriting my template via a Child Theme!</p>
+        <!-- Doing it Wrong -->
 
-Overwriting templates means more maintenance because these templates will not be updated when you upgrade your parent theme. It is much better to use the available actions to add your content.
+        <?php do_action('close_page_content'); ?>
+````
 
-Sounds confusing? Take a look at some of the examples below.
+Actions are a much better way to do the same! You can simply add the following to functions.php of your Child Theme.
+
+````
+/**
+* Add Custom HTML after our page content
+*
+*/
+function wfc_after_page_example() { ?>
+
+  <p>This is some custom content after my page content is shown. I'm adding this by overwriting my template via a Child Theme!</p>
+
+  <?php
+}
+add_action( 'close_page_content','wfc_after_page_example' );
+````
+
+This is a much better solution because overwriting templates means more maintenance! More important your templates will not be updated when the WeFoster Theme is updated so your template files need maintenance and might get out of date. So use actions to add your custom content to.
+
+Take a look at some of the examples below.
 
 ## Code Examples
 
 ### Insert HTML using an action
 
-TODO INSERT GIST
+````
+/**
+* Add Custom HTML after our page content
+*
+*/
+function wfc_after_page_example() { ?>
+
+  <p>This is some custom content after my page content is shown. I'm adding this by overwriting my template via a Child Theme!</p>
+
+  <?php
+}
+add_action( 'close_page_content','wfc_after_page_example' );
+````
 
 ### Load a template part using an action
 
-TODO INSERT GIST
+`````
+  function wfc_template_part_example()
+  {
+    get_template_part( 'templates/header/primary-navigation' );
+  }
+  add_action( 'before_header_navigation', 'wfc_template_part_example' );
+````` 
 
 ### Load a template part conditionally
 
-TODO INSERT GIST
+`````
+  function wfc_template_part_condition_example()
+  {   
+      //This template part will only be loaded on Single Pages
+      if ( is_single() ):
+          get_template_part( 'templates/thank-you-for-reading' );
+      endif;
+  }
+  add_action( 'after_content', 'wfc_template_part_condition_example' );
+````` 
 
 ### Show message to a logged in user
 
-TODO INSERT GIST
+`````
+  function wfc_logged_in_message_example()
+  {
+      if ( is_user_logged_in() ): ?>
 
-### Add custom HTML before BuddyPress Member Directory
+        <div class="logged-in-message">
+         Welcome back! This message is shown for logged in users only.
+        </div>
+
+      <?php endif;
+  }
+  add_action( 'open_body', 'wfc_logged_in_message_example' );
+````` 

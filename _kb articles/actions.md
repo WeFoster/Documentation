@@ -18,6 +18,7 @@ activate_wf_builder:
 further_reading:
   - ""
 ---
+[gfm]
 So now that we have learned about filter and constants, let’s look at how we can use actions to easily add new content (HTML/PHP/Loops etc) to your theme.
 
 ## When should I use actions.
@@ -124,3 +125,5 @@ add_action( 'close_page_content','wfc_after_page_example' );
   }
   add_action( 'open_body', 'wfc_logged_in_message_example' );
 ````` 
+
+[/gfm]

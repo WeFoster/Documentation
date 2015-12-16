@@ -17,7 +17,7 @@ Note: Are you a developer? Take a look at our Developer documentation.
 
 Rather watch a video than read the documentation? Check the video below:
 
-TODO: Installation Video
+TODO: Installation Video. This needs a video!
 
 ## Setting up your community
 

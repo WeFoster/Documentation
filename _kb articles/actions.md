@@ -41,9 +41,14 @@ Maybe you are used to overwrite a template from your parent theme and then addin
 <pre><?php get_template_part('templates/loops/content', 'page'); ?>
   
 
+
+
 <p>
   This is some custom content after my page content is shown. I'm adding this by overwriting my template via a Child Theme!
+  
 </p>
+
+
 
 
 <?php do_action('close_page_content'); ?>
@@ -52,12 +57,11 @@ Maybe you are used to overwrite a template from your parent theme and then addin
 Actions are a much better way to do the same! You can simply add the following to functions.php of your Child Theme.
 
 <pre>function wfc_after_page_example() { ?>
-
   <p>
   This is some custom content after my page content is shown. I'm adding this by overwriting my template via a Child Theme!
+  
 </p>
 
-  
 
 <?php
 }
@@ -74,14 +78,19 @@ Take a look at some of the examples below.
 
 
 
+
+
 <pre>
 function wfc_after_page_example() { ?>
 
   <p>
   This is some custom content after my page content is shown. I'm adding this by overwriting my template via a Child Theme!
+  
 </p>
 
   
+
+
 
 <?php
 }
@@ -89,6 +98,8 @@ add_action( 'close_page_content','wfc_after_page_example' );
 </pre>
 
 ### Load a template part using an action
+
+
 
 
 
@@ -101,6 +112,8 @@ add_action( 'before_header_navigation', 'wfc_template_part_example' );
 </pre>
 
 ### Load a template part conditionally
+
+
 
 
 
@@ -124,10 +137,13 @@ function wfc_logged_in_message_example()
 
       <div class="logged-in-message">
   Welcome back! This message is shown for logged in users only.
-        
+          
+  
 </div>
 
     
+
+
 
 <?php endif;
 }

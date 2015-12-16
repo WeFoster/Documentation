@@ -29,20 +29,12 @@ Simply do a search for do_action inside our GitHub repository to quick see an ov
 <em>So why should I use actions instead of just adding my custom HTML or using get_template_part directly inside the templates</em>
 
 Maybe you are used to overwrite a template from your parent theme and then adding the html/php in the template inside your child theme. Like this:
-<pre><code>        &lt;?php get_template_part('templates/loops/content', 'page'); ?&gt;
-
-        &lt;!-- Doing it Wrong --&gt;
-              &lt;p&gt;This is some custom content after my page content is shown. I'm adding this by overwriting my template via a Child Theme!&lt;/p&gt;
-        &lt;!-- Doing it Wrong --&gt;
-
-        &lt;?php do_action('close_page_content'); ?&gt;
+<pre><code>&lt;?php get_template_part('templates/loops/content', 'page'); ?&gt;
+  &lt;p&gt;This is some custom content after my page content is shown. I'm adding this by overwriting my template via a Child Theme!&lt;/p&gt;
+&lt;?php do_action('close_page_content'); ?&gt;
 </code></pre>
 Actions are a much better way to do the same! You can simply add the following to functions.php of your Child Theme.
-<pre><code>/**
-* Add Custom HTML after our page content
-*
-*/
-function wfc_after_page_example() { ?&gt;
+<pre><code>function wfc_after_page_example() { ?&gt;
 
   &lt;p&gt;This is some custom content after my page content is shown. I'm adding this by overwriting my template via a Child Theme!&lt;/p&gt;
 
@@ -55,11 +47,7 @@ This is a much better solution because overwriting templates means more maintena
 Take a look at some of the examples below.
 <h2>Code Examples</h2>
 <h3>Insert HTML using an action</h3>
-<pre><code>/**
-* Add Custom HTML after our page content
-*
-*/
-function wfc_after_page_example() { ?&gt;
+<pre><code>function wfc_after_page_example() { ?&gt;
 
   &lt;p&gt;This is some custom content after my page content is shown. I'm adding this by overwriting my template via a Child Theme!&lt;/p&gt;
 
@@ -68,32 +56,32 @@ function wfc_after_page_example() { ?&gt;
 add_action( 'close_page_content','wfc_after_page_example' );
 </code></pre>
 <h3>Load a template part using an action</h3>
-<pre><code>  function wfc_template_part_example()
-  {
-    get_template_part( 'templates/header/primary-navigation' );
-  }
-  add_action( 'before_header_navigation', 'wfc_template_part_example' );
+<pre><code>function wfc_template_part_example()
+{
+  get_template_part( 'templates/header/primary-navigation' );
+}
+add_action( 'before_header_navigation', 'wfc_template_part_example' );
 </code></pre>
 <h3>Load a template part conditionally</h3>
-<pre><code>  function wfc_template_part_condition_example()
-  {   
-      //This template part will only be loaded on Single Pages
-      if ( is_single() ):
-          get_template_part( 'templates/thank-you-for-reading' );
-      endif;
-  }
-  add_action( 'after_content', 'wfc_template_part_condition_example' );
+<pre><code>function wfc_template_part_condition_example()
+{   
+    //This template part will only be loaded on Single Pages
+    if ( is_single() ):
+        get_template_part( 'templates/thank-you-for-reading' );
+    endif;
+}
+add_action( 'after_content', 'wfc_template_part_condition_example' );
 </code></pre>
 <h3>Show message to a logged in user</h3>
-<pre><code>  function wfc_logged_in_message_example()
-  {
-      if ( is_user_logged_in() ): ?&gt;
+<pre><code>function wfc_logged_in_message_example()
+{
+    if ( is_user_logged_in() ): ?&gt;
 
-        &lt;div class="logged-in-message"&gt;
-         Welcome back! This message is shown for logged in users only.
-        &lt;/div&gt;
+      &lt;div class="logged-in-message"&gt;
+       Welcome back! This message is shown for logged in users only.
+      &lt;/div&gt;
 
-      &lt;?php endif;
-  }
-  add_action( 'open_body', 'wfc_logged_in_message_example' );
+    &lt;?php endif;
+}
+add_action( 'open_body', 'wfc_logged_in_message_example' );
 </code></pre>

@@ -39,7 +39,7 @@ Simply do a search for do_action inside our GitHub repository to quick see an ov
 
 Maybe you are used to overwrite a template from your parent theme and then adding the html/php in the template inside your child theme. Like this:
 
-````
+<pre>
         <?php get_template_part('templates/loops/content', 'page'); ?>
 
         <!-- Doing it Wrong -->
@@ -47,11 +47,11 @@ Maybe you are used to overwrite a template from your parent theme and then addin
         <!-- Doing it Wrong -->
 
         <?php do_action('close_page_content'); ?>
-````
+</pre>
 
 Actions are a much better way to do the same! You can simply add the following to functions.php of your Child Theme.
 
-````
+<pre>
 /**
 * Add Custom HTML after our page content
 *
@@ -63,7 +63,7 @@ function wfc_after_page_example() { ?>
   <?php
 }
 add_action( 'close_page_content','wfc_after_page_example' );
-````
+</pre>
 
 This is a much better solution because overwriting templates means more maintenance! More important your templates will not be updated when the WeFoster Theme is updated so your template files need maintenance and might get out of date. So use actions to add your custom content to.
 
@@ -73,7 +73,7 @@ Take a look at some of the examples below.
 
 ### Insert HTML using an action
 
-````
+<pre>
 /**
 * Add Custom HTML after our page content
 *
@@ -85,21 +85,21 @@ function wfc_after_page_example() { ?>
   <?php
 }
 add_action( 'close_page_content','wfc_after_page_example' );
-````
+</pre>
 
 ### Load a template part using an action
 
-`````
+<pre>
   function wfc_template_part_example()
   {
     get_template_part( 'templates/header/primary-navigation' );
   }
   add_action( 'before_header_navigation', 'wfc_template_part_example' );
-````` 
+</pre>
 
 ### Load a template part conditionally
 
-`````
+<pre>
   function wfc_template_part_condition_example()
   {   
       //This template part will only be loaded on Single Pages
@@ -108,11 +108,11 @@ add_action( 'close_page_content','wfc_after_page_example' );
       endif;
   }
   add_action( 'after_content', 'wfc_template_part_condition_example' );
-````` 
+</pre>
 
 ### Show message to a logged in user
 
-`````
+<pre>
   function wfc_logged_in_message_example()
   {
       if ( is_user_logged_in() ): ?>
@@ -124,5 +124,5 @@ add_action( 'close_page_content','wfc_after_page_example' );
       <?php endif;
   }
   add_action( 'open_body', 'wfc_logged_in_message_example' );
-````` 
+</pre>
 [/gfm]

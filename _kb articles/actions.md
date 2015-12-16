@@ -18,7 +18,6 @@ activate_wf_builder:
 further_reading:
   - ""
 ---
-[gfm]
 So now that we have learned about filter and constants, let’s look at how we can use actions to easily add new content (HTML/PHP/Loops etc) to your theme.
 
 ## When should I use actions.
@@ -39,31 +38,43 @@ Simply do a search for do_action inside our GitHub repository to quick see an ov
 
 Maybe you are used to overwrite a template from your parent theme and then adding the html/php in the template inside your child theme. Like this:
 
-<pre>
-        <?php get_template_part('templates/loops/content', 'page'); ?>
+<pre><?php get_template_part('templates/loops/content', 'page'); ?>
 
-        <!-- Doing it Wrong -->
-              <p>This is some custom content after my page content is shown. I'm adding this by overwriting my template via a Child Theme!</p>
-        <!-- Doing it Wrong -->
+        
 
-        <?php do_action('close_page_content'); ?>
+<!-- Doing it Wrong -->
+              
+
+<p>
+  This is some custom content after my page content is shown. I'm adding this by overwriting my template via a Child Theme!
+</p>
+        
+
+<!-- Doing it Wrong -->
+
+        
+
+<?php do_action('close_page_content'); ?>
 </pre>
 
 Actions are a much better way to do the same! You can simply add the following to functions.php of your Child Theme.
 
-<pre>
-/**
+<pre>/**
 * Add Custom HTML after our page content
 *
 */
 function wfc_after_page_example() { ?>
 
-  <p>This is some custom content after my page content is shown. I'm adding this by overwriting my template via a Child Theme!</p>
+  <p>
+  This is some custom content after my page content is shown. I'm adding this by overwriting my template via a Child Theme!
+</p>
 
-  <?php
+  
+
+<?php
 }
 add_action( 'close_page_content','wfc_after_page_example' );
-</pre>
+<//pre>
 
 This is a much better solution because overwriting templates means more maintenance! More important your templates will not be updated when the WeFoster Theme is updated so your template files need maintenance and might get out of date. So use actions to add your custom content to.
 
@@ -73,6 +84,8 @@ Take a look at some of the examples below.
 
 ### Insert HTML using an action
 
+
+
 <pre>
 /**
 * Add Custom HTML after our page content
@@ -80,14 +93,20 @@ Take a look at some of the examples below.
 */
 function wfc_after_page_example() { ?>
 
-  <p>This is some custom content after my page content is shown. I'm adding this by overwriting my template via a Child Theme!</p>
+  <p>
+  This is some custom content after my page content is shown. I'm adding this by overwriting my template via a Child Theme!
+</p>
 
-  <?php
+  
+
+<?php
 }
 add_action( 'close_page_content','wfc_after_page_example' );
 </pre>
 
 ### Load a template part using an action
+
+
 
 <pre>
   function wfc_template_part_example()
@@ -98,6 +117,8 @@ add_action( 'close_page_content','wfc_after_page_example' );
 </pre>
 
 ### Load a template part conditionally
+
+
 
 <pre>
   function wfc_template_part_condition_example()
@@ -112,17 +133,21 @@ add_action( 'close_page_content','wfc_after_page_example' );
 
 ### Show message to a logged in user
 
+
+
 <pre>
   function wfc_logged_in_message_example()
   {
       if ( is_user_logged_in() ): ?>
 
         <div class="logged-in-message">
-         Welcome back! This message is shown for logged in users only.
-        </div>
+  Welcome back! This message is shown for logged in users only.
+          
+</div>
 
-      <?php endif;
+      
+
+<?php endif;
   }
   add_action( 'open_body', 'wfc_logged_in_message_example' );
 </pre>
-[/gfm]

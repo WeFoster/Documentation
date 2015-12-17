@@ -13,6 +13,4 @@ page_hero_section:
 activate_wf_builder:
   - "0"
 ---
-Hi Guys
-
 [facetwp template="snippets"]

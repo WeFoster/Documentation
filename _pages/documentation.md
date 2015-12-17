@@ -15,7 +15,4 @@ activate_wf_builder:
 ---
 This is our Facet
 
-[facetwp facet="documentation"]
-
-
 [facetwp template="knowledge_base_loop"]

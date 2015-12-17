@@ -13,7 +13,11 @@ page_hero_section:
 activate_wf_builder:
   - "0"
 further_reading:
-  - ""
+  - 'a:2:{s:7:"site_id";i:1;s:14:"selected_posts";a:2:{i:0;s:4:"2820";i:1;s:4:"1271";}}'
+required_reading:
+  - 'a:1:{i:0;s:2:"33";}'
+link_snippet_to_kb_article:
+  - 'a:1:{i:0;s:3:"210";}'
 ---
 So now that we have learned about filter and constants, let’s look at how we can use actions to easily add new content (HTML/PHP/Loops etc) to your theme.
 <h2>When should I use actions.</h2>

@@ -13,6 +13,4 @@ page_hero_section:
 activate_wf_builder:
   - "0"
 ---
-This is our Facet
-
 [facetwp template="knowledge_base_loop"]

@@ -2,7 +2,7 @@
 ID: 258
 post_title: Add Default Classes to Sidebar
 author: WeFoster
-post_date: 2015-12-18 11:05:03
+post_date: 2015-12-18 11:05:53
 post_excerpt: ""
 layout: gistpen
 permalink: >

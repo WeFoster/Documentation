@@ -2,7 +2,7 @@
 ID: 37
 post_title: WeFoster Theme Documentation
 author: WeFoster
-post_date: 2015-09-07 21:37:56
+post_date: 2015-10-07 21:37:56
 post_excerpt: ""
 layout: wpkb-article
 permalink: >

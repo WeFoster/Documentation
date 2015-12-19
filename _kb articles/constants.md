@@ -2,7 +2,7 @@
 ID: 24
 post_title: Constants
 author: Bowe Frankema
-post_date: 2015-09-07 21:18:11
+post_date: 2015-10-07 21:18:11
 post_excerpt: ""
 layout: wpkb-article
 permalink: >

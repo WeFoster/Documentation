@@ -13,7 +13,7 @@ permalink:
     http://documentation.wefoster.co/kb/introduction/
 published: true
 further_reading:
-  - ""
+  - 'a:1:{i:0;s:2:"23";}'
 required_reading:
   - ""
 link_snippet_to_kb_article:
@@ -23,6 +23,8 @@ page_hero_section:
 activate_wf_builder:
   - "1"
 add_block:
+  - ""
+additional_reading:
   - ""
 ---
 When we sat down to create a new theme framework written from the ground up with BuddyPress in mind, we already had 5 years of experience under our belts developing BuddyPress communities and products. It took us two years of development, several rewrites and extensive testing to get to the version of the theme you’re seeing today.

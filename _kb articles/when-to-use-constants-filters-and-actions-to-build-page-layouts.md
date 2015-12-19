@@ -4,7 +4,7 @@ post_title: >
   When to use Constants, Filters and
   Actions
 author: Bowe Frankema
-post_date: 2015-09-07 21:25:52
+post_date: 2015-10-07 21:25:52
 post_excerpt: ""
 layout: wpkb-article
 permalink: >

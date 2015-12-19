@@ -2,7 +2,7 @@
 ID: 40
 post_title: WeFoster Plus Documentation
 author: Bowe Frankema
-post_date: 2015-09-10 11:01:00
+post_date: 2015-10-10 11:01:00
 post_excerpt: ""
 layout: wpkb-article
 permalink: >

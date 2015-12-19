@@ -6,7 +6,7 @@ post_title: >
 author:
   - Bowe Frankema
 post_date:
-  - 2015-09-07 21:23:14
+  - 2015-10-07 21:23:14
 post_excerpt:
   - ""
 layout: wpkb-article

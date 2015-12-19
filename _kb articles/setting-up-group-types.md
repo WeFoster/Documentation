@@ -2,7 +2,7 @@
 ID: 90
 post_title: Setting up Group Types
 author: WeFoster
-post_date: 2015-10-30 09:49:49
+post_date: 2015-11-30 09:49:49
 post_excerpt: ""
 layout: wpkb-article
 permalink: >

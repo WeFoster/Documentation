@@ -2,7 +2,7 @@
 ID: 31
 post_title: LESS Variables
 author: Bowe Frankema
-post_date: 2015-09-07 21:23:47
+post_date: 2015-10-07 21:23:47
 post_excerpt: ""
 layout: wpkb-article
 permalink: >

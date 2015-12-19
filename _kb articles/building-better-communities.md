@@ -2,7 +2,7 @@
 ID: 41
 post_title: Building Better Communities
 author: Bowe Frankema
-post_date: 2015-09-10 11:02:32
+post_date: 2015-10-10 11:02:32
 post_excerpt: ""
 layout: wpkb-article
 permalink: >

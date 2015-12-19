@@ -2,7 +2,7 @@
 ID: 23
 post_title: Getting Started
 author: Bowe Frankema
-post_date: 2015-09-07 21:17:22
+post_date: 2015-10-07 21:17:22
 post_excerpt: ""
 layout: wpkb-article
 permalink: >

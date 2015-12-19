@@ -2,7 +2,7 @@
 ID: 8
 post_title: 'Functions &#8211; An introduction'
 author: Bowe Frankema
-post_date: 2015-09-06 16:34:33
+post_date: 2015-10-06 16:34:33
 post_excerpt: ""
 layout: wpkb-article
 permalink: >

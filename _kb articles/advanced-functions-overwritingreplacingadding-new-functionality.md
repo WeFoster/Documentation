@@ -2,7 +2,7 @@
 ID: 32
 post_title: 'Functions &#8211; Overwriting/Replacing/Adding new functionality'
 author: Bowe Frankema
-post_date: 2015-09-07 21:24:36
+post_date: 2015-10-07 21:24:36
 post_excerpt: ""
 layout: wpkb-article
 permalink: >

@@ -41,13 +41,18 @@ Have fun building better BuddyPress communities, The WeFoster Team
 
 Before you dive into the nitty gritty details surrounding developing themes on the WeFoster theme, here’s a quick overview of the goals and philosophy behind the WeFoster theme.
 
-### Compatibility
+### BuddyPress Compatibility
 
 BuddyPress has an incredible community of developers that have released hundreds of actively maintained plugins. BuddyPress Core has made great strides in improving the theming experience but there are still many plugins that have custom templates and CSS that depend on BuddyPress base CSS. We’ve gone through great lengths to ensure compatibility with these plugins and deliver a theme that can be used to create a seamless experience for you or your clients, no matter the plugins you use. Please take a look at our curated repository of plugins we officially support to our customers and clients.
 
 ### Modular and Extensible CSS
 
-We converted the BuddyPress base CSS into LESS and made everything modular. Take a look at wefoster/assets/less/buddypress/buddypress.less to see what we mean.
+We converted the BuddyPress base CSS into LESS and made everything modular. Take a look at
+
+    wefoster/assets/less/buddypress/main.less
+    wefoster/assets/less/buddypress/buddypress.less
+
+to see what we mean.
 
 By using the power of Grunt and LESS you are able to quickly compile a CSS file inside your Child Theme that contains only the CSS you need and simply remove (dequeue) the parent stylesheet. This is the easiest and cleanest way to create completely custom themes simply by overwriting the variables.less in your child theme.
 
@@ -73,7 +78,7 @@ By utilising Grunt and Bower we’re giving you the tools to automate a lot of t
 *   Javascript linting, Minification, Versioning and enqueuing
 *   Generating PO/MO and POT translation files
 *   Generating a clean “Release Build” for your clients.
-*   Merging Parent/Child Theme into a standalone Parent theme (coming soon).
+
 
 ### Actions, Filters and Constants
 
@@ -87,10 +92,10 @@ There’s a reason why products like Easy Digital Downloads, WooCommerce and the
 
 The WeFoster Theme would not have been possible without the tireless efforts of these Open Source projects and their talented developers:
 
-*   The <a href="http://buddypress.org" target="_blank">BuddyPress</a> Development team and everyone who contributes to BuddyPress, We <3 you guys! 
-*   <a href="https://github.com/aristath" target="_blank">Aristeides Stathopoulos</a> who made Kirki, and helped improve our code. 
-*   <a href="https://hmn.md/" target="_blank">HumanMade</a> for their support and the awesome WPThumb library. 
-*   <a href="http://presscrew.com" target="_blank">Marshall Sorenson</a>, Boone B Georges, Ray and the rest of the <a href="http://cbox.org" target="_blank">CBOX Team</a>. 
+*   The <a href="http://buddypress.org" target="_blank">BuddyPress</a> Development team and everyone who contributes to BuddyPress, We <3 you guys!
+*   <a href="https://github.com/aristath" target="_blank">Aristeides Stathopoulos</a> who made Kirki, and helped improve our code.
+*   <a href="https://hmn.md/" target="_blank">HumanMade</a> for their support and the awesome WPThumb library.
+*   <a href="http://presscrew.com" target="_blank">Marshall Sorenson</a>, Boone B Georges, Ray and the rest of the <a href="http://cbox.org" target="_blank">CBOX Team</a>.
 *   <a href="http://buddyboss.com" target="_blank">BuddyBoss</a>, <a href="http://buddydev.com" target="_blank">BuddyDev</a> and <a href="http://themekraft.com" target="_blank">ThemeKraft</a>, <a href="http://webdevstudios.com" target="_blank">WebDevStudios</a> for constantly building better BuddyPress solutions!
 
 ## Feedback, Support & Contributions

@@ -2,7 +2,7 @@
 ID: 29
 post_title: Overwriting Templates
 author: Bowe Frankema
-post_date: 2015-09-07 21:22:08
+post_date: 2015-10-07 21:22:08
 post_excerpt: ""
 layout: wpkb-article
 permalink: >

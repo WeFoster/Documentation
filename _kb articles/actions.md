@@ -12,7 +12,7 @@ permalink:
   - /kb/actions/
 published: true
 page_hero_section:
-  - "1"
+  - "0"
 activate_wf_builder:
   - "1"
 further_reading:

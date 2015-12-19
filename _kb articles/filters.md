@@ -2,7 +2,7 @@
 ID: 25
 post_title: Filters
 author: Bowe Frankema
-post_date: 2015-09-07 21:18:38
+post_date: 2015-10-07 21:18:38
 post_excerpt: ""
 layout: wpkb-article
 permalink: >

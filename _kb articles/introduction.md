@@ -1,14 +1,28 @@
 ---
 ID: 21
 post_title: Developer Introduction
-author: WeFoster
-post_date: 2015-09-07 21:14:26
-post_excerpt: ""
+author:
+  - WeFoster
+post_date:
+  - 2015-09-07 21:14:26
+post_excerpt:
+  - ""
 layout: wpkb-article
-permalink: >
-  http://documentation.wefoster.co/kb/introduction/
+permalink:
+  - >
+    http://documentation.wefoster.co/kb/introduction/
 published: true
 further_reading:
+  - ""
+required_reading:
+  - ""
+link_snippet_to_kb_article:
+  - ""
+page_hero_section:
+  - "0"
+activate_wf_builder:
+  - "1"
+add_block:
   - ""
 ---
 When we sat down to create a new theme framework written from the ground up with BuddyPress in mind, we already had 5 years of experience under our belts developing BuddyPress communities and products. It took us two years of development, several rewrites and extensive testing to get to the version of the theme you’re seeing today.

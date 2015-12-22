@@ -9,7 +9,7 @@ permalink: >
   https://documentation.wefoster.co/kb/wefoster-plus/
 published: true
 ---
-The documentation below is for WeFoster Plus; our premium service that comes with a ton of extra awesome functionality for the WeFoster theme, priority support and access to exclusive resources. If you are a WeFoster Plus subscriber and have the WeFoster Plus plugin installed, this documentation is for you.
+The documentation below is for WeFoster Plus; our premium plugin that comes with a ton of extra awesome functionality for the WeFoster theme. If you are a WeFoster Plus customer and have the WeFoster Plus plugin installed, this documentation is for you.
 
 ## Stylekits
 
@@ -30,7 +30,7 @@ By default the WeFoster Plus plugin comes with a range of different Stylekits yo
 1.  Go to Appearance > Customize inside your WordPress Admin
 2.  Click on Stylekits
 3.  Select a Stylekit you like
-4.  Press “Save” in the top right and load a page inside the customiser window on your right. (for example by clicking on a menu link). 
+4.  Press “Save” in the top right and load a page inside the customiser window on your right. (for example by clicking on a menu link).
 
 TODO: Insert GIF for selecting Stylekit.
 

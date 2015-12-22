@@ -1,15 +1,6 @@
 ---
-ID: 26
-post_title: BuddyPress Settings
-author:
-  - WeFoster
-post_date:
-  - 2015-10-07 21:19:19
-post_excerpt:
-  - ""
+post_title: 'BuddyPress Settings'
 layout: wpkb-article
-permalink:
-  - /kb/buddypress-settings/
 published: true
 ---
 Creating a BuddyPress theme without awesome BuddyPress customisation settings would be silly. So we have added a lot of them!

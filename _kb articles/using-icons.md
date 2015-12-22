@@ -1,16 +1,6 @@
 ---
-ID: 21
-post_title: Using Icons
-author:
-  - WeFoster
-post_date:
-  - 2015-09-07 21:14:26
-post_excerpt:
-  - ""
+post_title: 'Using Icons'
 layout: wpkb-article
-permalink:
-  - >
-    http://documentation.wefoster.co/kb/using-icons/
 published: true
 ---
 

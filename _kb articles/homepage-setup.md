@@ -1,15 +1,6 @@
 ---
-ID: 26
-post_title: Homepage
-author:
-  - WeFoster
-post_date:
-  - 2015-10-07 21:19:19
-post_excerpt:
-  - ""
+post_title: 'Setting up your Homepage'
 layout: wpkb-article
-permalink:
-  - /kb/homepage/
 published: true
 ---
 The WeFoster Theme comes with a homepage template which lets you present your community features easily. The homepage is fully widgetized so it's up to you to decide which content to showcase. When you activate the WeFoster Theme some default widgets are added to your homepage which should help you get started!

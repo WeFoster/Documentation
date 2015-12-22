@@ -1,15 +1,6 @@
 ---
-ID: 26
-post_title: Appearance Settings
-author:
-  - WeFoster
-post_date:
-  - 2015-10-07 21:19:19
-post_excerpt:
-  - ""
+post_title: 'Appearance Settings'
 layout: wpkb-article
-permalink:
-  - /kb/appearance-settings/
 published: true
 ---
 Changing the look and feel of your community to match your branding is crucial and we've included a wide ranges of settings to help you get started.

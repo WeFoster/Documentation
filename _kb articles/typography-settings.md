@@ -1,15 +1,6 @@
 ---
-ID: 26
-post_title: Typography Settings
-author:
-  - WeFoster
-post_date:
-  - 2015-10-07 21:19:19
-post_excerpt:
-  - ""
+post_title: 'Typography Settings'
 layout: wpkb-article
-permalink:
-  - /kb/typography-settings/
 published: true
 ---
 Beautiful and balanced typography is an important part of any website and especially important for your community. You want your audience to keep coming back and a pleasant reading experience is a crucial factor. The Typography settings allow you to customise the fonts that are used on your site.  

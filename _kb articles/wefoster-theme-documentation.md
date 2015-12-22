@@ -15,112 +15,169 @@ Welcome to the WeFoster theme documentation. This is where you’ll find everyth
 
 Note: Are you a developer? Take a look at our Developer documentation.
 
-## Installation
+## After Activation
 
-Rather watch a video than read the documentation? Check the video below:
+When you first activate the WeFoster theme it automatically configures itself using our recommended settings. This means that a navigation menu is created, widgets are added to your sidebars and your homepage is set up automagically. Sweet huh?
 
-TODO: Installation Video. This needs a video!
-
-## Setting up your community
-
-When you first activate the WeFoster theme it automatically configures itself using our recommended settings. This means that a navigation menu is created, widgets are added to your sidebars and your homepage is set up automagically. Sweet huh? The following sections will describe how to make your community your own.
-
-### Homepage
-
-### Sidebars & Widgets
+## Sidebars & Widgets
 
 The WeFoster theme comes with several different sidebar areas you can populate with the Widgets of your choice. This allows you to show different widgets on different areas of your site. If you have never used sidebars and widgets before, here are some good resources to quickly get you up to speed with how they work.
 
-TODO: Insert general WordPress widgets info
+**What are Widgets?**<br>
+https://en.support.wordpress.com/widgets/
 
-### Menus
+**Using Widgets (Video)**<br>
+https://ithemes.com/tutorials/using-wordpress-widgets/
 
-By default the WeFoster theme has two navigation menus; Secondary and Primary. Depending on the type of layout you are using they will be available for you to populate with navigation items.
+As you can see Widgets are very powerful and allow you to truly customize the experience for your users by showing different (dynamic) content across your site.
 
-If you have never used sidebars and widgets before, here are some good resources to quickly get you up to speed with how they work.
+## Menus
 
-TODO: Insert general WordPress Menu docs.
+Never set up Menus before in WordPress? No worries, here are some videos on how Menus work
 
-## Customisations
+**Video: Setting up Menus in WordPress** <br>
+https://www.youtube.com/watch?v=3TkXaoMIzQ4
 
-The following section will dive into customising your theme by changing the layout, appearance, typography and some individual areas of your community.
+**Video: Setting up Menus via the WordPress Customizer**<br>
+https://www.youtube.com/watch?v=o6S2n6imgqM
 
-Keep reading or check out the overview video below.
+Your WeFoster Theme can have a maximum of three menus based on the layout you've chose in your appearance settings (more about those later)
 
-We will not describe and cover every customisation option because every option also comes with a description and contextual help.
+![WordPress Menus](https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/menu-options.png)
 
-### Appearance
+### Primary Navigation Menu
 
-Appearance > Customise > Appearance
+The Primary Navigation menu is the menu that is always used by the WeFoster Theme and it's also the one that is automatically configured as soon as you activate your theme. This menu is used by your users to navigate your site and you can add navigation links two levels deep.
 
-The Appearance settings allow you to change the layout and appearance of your site. For example placing the sidebar on the right or left side of the page, or setting a background image for your site.
+![Customiser Menu](https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/menu-customiser.gif)
 
-The Appearance options are divided based on the area of your layout it applies to.
+### Secondary Navigation Menu
 
-*   Body
-*   Header
-*   Content
-*   Sidebar
-*   Footer
+Depending on the layout you have created using the Appearance settings (more about those later!) you might want be able to use a secondary navigation. This is useful if your community has lots of content or you need additional navigation real estate.
 
-There a dozens of layout variations possible and layouts can be shared and downloaded for free on WeFoster.co.
+### BuddyPress Member Navigation Menu
 
-Visit
+This menu is only shown when BuddyPress is active and shows a multi-level navigation that allows your users to quickly navigate across your site. It also shows their Notifications, Profile Photo and optionally their full name.
 
-### Typography
+## Homepage Setup
 
-Appearance > Customise > Typography
+The WeFoster Theme comes with a homepage template which lets you present your community features easily. The homepage is fully widgetized so it's up to you to decide which content to showcase. When you activate the WeFoster Theme some default widgets are added to your homepage which should help you get started!
 
-The typography section gives you the ability to mix and match different fonts and apply them to different elements of your site. You can also control the size and weight of the fonts (bold, regular) to create a unique font stack for your site.
+### Adding Widgets to your Homepage
 
-The Typography settings are divided into the following sections:
+1. Go to Appearance > Widgets
+2. There are 6 Widget Areas you can populate with any Widgets of your choice.
 
-*   Global (affect all elements on your page)
-*   Headings (Headings like H1,H2 and Post/Page Titles)
-*   Navigation (Menus and Navigation elements)
+![Homepage Widgets](https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/homepage-widgets.png)
 
-In general we would recommend you choose font faces and keep your site copy easy to read and balanced. If you are unsure about a combination you can always ask for feedback in our community forums or use one of our carefully designed Stylekits.
+
+### Building Your Homepage via the Customiser
+
+You can use the WordPress Customiser to get a live preview of your homepage whilst you are adding widgets.
+
+1. Go to Appearance > **Customize**
+2. Click on > **Widgets**
+
+![Customiser Widget](https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/homepage-widgets-customiser.gif)
+
+### Changing the Homepage Layout
+
+Depending on your needs you can customize the appearance of your homepage. You can choose the amount of widgets you would like to display and the size of the widget areas.
+
+_Note: Depending on the layout you choose certain widget areas might be hidden._
+
+1. Go to Appearance > **Customize**
+2. Click on > **Homepage**
+
+Here you'll see the available layout options for your homepage. Once you are done customizing save your changes and that's all there is to it!
+
+### Extending the Homepage (Developers & Advanced Users)
+
+The homepage template can be extended via actions, filters and constants. Additionally you can overwrite the template contents inside your child theme. Take a look at the additional reading links at the bottom of this article.
+
+## Using the Customizer
+
+There are over 70 settings available that allow you to build a custom design for your site and customise everything to your hearts desire. Let's walk you through the sections in the Customiser that can be found here:
+
+1. Appearance > **Customise**
 
 ### Stylekits
 
-*Stylekits are carefully crafted designs for your WeFoster theme that you can use as a starting point for your site. We are constantly adding new Stylekits based on the requests from our community members*.
+Stylekits are carefully crafted designs and pre-made site configurations that you can quickly apply to your theme. Choose a Stylekit that you like and make it your own. WeFoster Plus customers can save, export and import Stylekits that they have created or have been made by other WeFoster community members. It's an extremely powerful feature that we're very proud of.
 
-When you apply a stylekit to your theme you can then easily customise every aspect of it according to the needs of your community. Check out the video below for a quick introduction.
+#### Applying Stylekits
 
-To use Stylekits you need to have a WeFoster Plus subscription and the WeFoster Plus plugin installed.
+  
 
-Looking for the Stylekit Documentation? Check out the WeFoster Plus documentation for all the details.
+### Appearance
 
-TODO: LINK TO WEFOSTER PLUS
+This area holds all the settings that change the appearance of your community. Below is a quick overview of all the sections available. All settings come with descriptions and hopefully should explain themselves. Please let us know if you have any improvements or need further clarification about certain settings.
 
-### Posts & Pages
+#### Body
 
-Go to Appearance > Customise > Posts & Pages
+This is where you can upload a background image and change the layout type (boxed layout, full width layout etc).
 
-This section allows you to customise the settings related to posts and pages on your site. For example to change the size of your featured images or to customise how your single posts are displayed.
+#### Logo
 
-to see the available options.
+Choose from a set of pre-made logos or upload your own. You have the option to choose/upload a different logo for mobile devices.
+
+#### Header
+
+Choose from a variety of header designs. Change the appearance of your navigation menu and choose between a full header (with image) or a minimal header.
+
+#### Content
+
+Choose the size of your content area in relation to your sidebar.
+
+### Sidebar
+
+Choose where you want to display your sidebar (Left or Right side of the content).
+
+#### Footer
+
+Choose the amount of widgets to display in your footer and change it's appearance. Additionally you can add a custom (copyright) text to your footer.
+
+#### Admin Bar
+
+Hide the Admin Bar to all visitors except WordPress Administrators. (recommended).
+
+### Typography
+
+Beautiful and balanced typography is an important part of any website and especially important for your community. You want your audience to keep coming back and a pleasant reading experience is a crucial factor. The Typography settings allow you to customise the fonts that are used on your site.  
+
+#### Global
+
+In this section you'll be presented with settings to change your font size, font family and Font Weight for your entire design. Once you have found a typography setting that you like press "Save Changes".
+
+![Typography](https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/typography-settings.gif)
 
 ### BuddyPress
 
-Appearance > Customise > BuddyPress
+Creating a BuddyPress theme without awesome BuddyPress customization settings would be silly. So we have added a lot of them! Below is a quick overview of all the sections available. All settings come with descriptions and hopefully should explain themselves. Please let us know if you have any improvements or need further clarification about certain settings.
 
-The WeFoster Theme was developed from the ground up with BuddyPress in mind. Because every community is unique we’ve included a few customisation options to quickly create something unique.
+#### General
 
-To see the available options. The settings are divided based on the BuddyPress component.
+Upload default avatars and cover photos for your Groups and Members and choose how the BuddyPress User Navigation Menu behaves.
 
-*   Default Member & Group Avatars
-*   BuddyPress Page Titles
-*   Layouts (WeFoster Plus Feature)
+#### Members Directory
 
-### Resetting Your Settings
+Change the Title of the Members Directory, add a custom introduction text and choose how many members are displayed per page.
 
-If you want to go back to the default setting of your theme or stylekit simply press the “Reset” button in the top right of the Customiser.
+#### Groups Directory
 
-Note: You can always export your current settings so you can easily revert to a previous design. Even your images like logos and backgrounds will be saved.
+Change the Title of the Groups Directory, add a custom introduction text and choose how many groups are displayed per page.
 
-### Exporting and Importing Settings
+#### Activity
 
-Once you have made changes to your site and are satisfied with the design of your site, you can easily export your settings and save it on your computer for later re-use or as a back-up of your design.
+Change the Title of the Activity Directory and choose how many entries are displayed per page.
 
-1.  Go to Appearance > Customise > Stylekits > Import/Export and **Export** your settings (better safe than sorry)
+### Post & Page Settings
+
+This area holds all the settings that affect the look of your Posts & Pages. Below is a quick overview of all the sections available. All settings come with descriptions and hopefully should explain themselves. Please let us know if you have any improvements or need further clarification about certain settings.
+
+#### Featured Images
+
+This is where you can set the height & width of your Featured Images and can apply different image effects to them.
+
+**About image resizing.**
+_Your featured images are resized by the WeFoster Theme automatically to fit the sizes you specify. This gives you a lot of flexibility in choosing the image size that you like. It does mean that when you change the image sizes these images need to be regenerated and saved again with their new dimension. If you have a lot of Featured Images this means a lot of additional space being used._

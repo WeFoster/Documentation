@@ -25,7 +25,7 @@ Choose from a variety of header designs. Change the appearance of your navigatio
 
 ### Content
 
-Choose the size of your content area in relation to your sidebar.
+Select the size of your content area in relation to your sidebar.
 
 ### Sidebar
 

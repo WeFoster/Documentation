@@ -45,19 +45,3 @@ To add an icon to a menu link do the following.
 2. Paste the HTML of the icon where you want to insert it. See the screenshot below.
 
 ![Using Icons in Content](https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/icon-content.png)
-
-## Replacing Existing Icons
-
-If you don't like some of the icons we have chosen you can replace them with others by adding some custom CSS to your theme CSS. In order to do this you first need to figure out the right CSS selector to target.
-
-Sounds complicated? Please read the following **excellent** tutorials about using Firefox or Google Chrome to easily find the CSS rule you need to use.
-
-TODO: Insert Links to Firebug / Chrome Dev Tools Tutorials.
-
-Done reading and all up to speed about finding your CSS selectors? Now you have all you need to replace icons.
-
-### Step 1: Find the CSS selector that contains the icon.
-
-Using Firebug or Google Dev Tools find the icon you would like to change and copy the CSS rule.
-
-![Changing Icons](https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/icon-change.png)

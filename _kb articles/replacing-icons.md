@@ -63,4 +63,4 @@ So the logical final step is replacing our old CSS with our new CSS.
       content: '\f02d';
     }
 
-Save your CSS file and witness the magic. Congratulations you are now a CSS Wizard.
+Save your CSS file and witness the magic. Congratulations you are now a CSS Wizard. Use your new powers wisely.

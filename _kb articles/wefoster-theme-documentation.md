@@ -1,15 +1,31 @@
 ---
 ID: 37
 post_title: WeFoster Theme Documentation
-author: WeFoster
-post_date: 2015-10-07 21:37:56
-post_excerpt: ""
+author:
+  - WeFoster
+post_date:
+  - 2015-10-07 21:37:56
+post_excerpt:
+  - ""
 layout: wpkb-article
-permalink: >
-  https://documentation.wefoster.co/kb/wefoster-theme-documentation/
+permalink:
+  - >
+    https://documentation.wefoster.co/kb/wefoster-theme-documentation/
 published: true
 wpkb_rating_perc:
-  - "100"
+  - 'a:1:{i:0;s:3:"100";}'
+required_reading:
+  - ""
+further_reading:
+  - ""
+additional_reading:
+  - ""
+link_snippet_to_kb_article:
+  - ""
+page_hero_section:
+  - "0"
+activate_wf_builder:
+  - "0"
 ---
 Welcome to the WeFoster theme documentation. This is where you’ll find everything you need to quickly launch your community using the WeFoster theme. Let’s get started!
 
@@ -23,10 +39,10 @@ When you first activate the WeFoster theme it automatically configures itself us
 
 The WeFoster theme comes with several different sidebar areas you can populate with the Widgets of your choice. This allows you to show different widgets on different areas of your site. If you have never used sidebars and widgets before, here are some good resources to quickly get you up to speed with how they work.
 
-**What are Widgets?**<br>
+**What are Widgets?**  
 https://en.support.wordpress.com/widgets/
 
-**Using Widgets (Video)**<br>
+**Using Widgets (Video)**  
 https://ithemes.com/tutorials/using-wordpress-widgets/
 
 As you can see Widgets are very powerful and allow you to truly customize the experience for your users by showing different (dynamic) content across your site.
@@ -35,21 +51,21 @@ As you can see Widgets are very powerful and allow you to truly customize the ex
 
 Never set up Menus before in WordPress? No worries, here are some videos on how Menus work
 
-**Video: Setting up Menus in WordPress** <br>
+**Video: Setting up Menus in WordPress**   
 https://www.youtube.com/watch?v=3TkXaoMIzQ4
 
-**Video: Setting up Menus via the WordPress Customizer**<br>
+**Video: Setting up Menus via the WordPress Customizer**  
 https://www.youtube.com/watch?v=o6S2n6imgqM
 
 Your WeFoster Theme can have a maximum of three menus based on the layout you've chose in your appearance settings (more about those later)
 
-![WordPress Menus](https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/menu-options.png)
+![WordPress Menus][1]
 
 ### Primary Navigation Menu
 
 The Primary Navigation menu is the menu that is always used by the WeFoster Theme and it's also the one that is automatically configured as soon as you activate your theme. This menu is used by your users to navigate your site and you can add navigation links two levels deep.
 
-![Customiser Menu](https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/menu-customiser.gif)
+![Customiser Menu][2]
 
 ### Secondary Navigation Menu
 
@@ -65,29 +81,28 @@ The WeFoster Theme comes with a homepage template which lets you present your co
 
 ### Adding Widgets to your Homepage
 
-1. Go to Appearance > Widgets
-2. There are 6 Widget Areas you can populate with any Widgets of your choice.
+1.  Go to Appearance > Widgets
+2.  There are 6 Widget Areas you can populate with any Widgets of your choice.
 
-![Homepage Widgets](https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/homepage-widgets.png)
-
+![Homepage Widgets][3]
 
 ### Building Your Homepage via the Customiser
 
 You can use the WordPress Customiser to get a live preview of your homepage whilst you are adding widgets.
 
-1. Go to Appearance > **Customize**
-2. Click on > **Widgets**
+1.  Go to Appearance > **Customize**
+2.  Click on > **Widgets**
 
-![Customiser Widget](https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/homepage-widgets-customiser.gif)
+![Customiser Widget][4]
 
 ### Changing the Homepage Layout
 
 Depending on your needs you can customize the appearance of your homepage. You can choose the amount of widgets you would like to display and the size of the widget areas.
 
-_Note: Depending on the layout you choose certain widget areas might be hidden._
+*Note: Depending on the layout you choose certain widget areas might be hidden.*
 
-1. Go to Appearance > **Customize**
-2. Click on > **Homepage**
+1.  Go to Appearance > **Customize**
+2.  Click on > **Homepage**
 
 Here you'll see the available layout options for your homepage. Once you are done customizing save your changes and that's all there is to it!
 
@@ -99,15 +114,13 @@ The homepage template can be extended via actions, filters and constants. Additi
 
 There are over 70 settings available that allow you to build a custom design for your site and customise everything to your hearts desire. Let's walk you through the sections in the Customiser that can be found here:
 
-1. Appearance > **Customise**
+1.  Appearance > **Customise**
 
 ### Stylekits
 
 Stylekits are carefully crafted designs and pre-made site configurations that you can quickly apply to your theme. Choose a Stylekit that you like and make it your own. WeFoster Plus customers can save, export and import Stylekits that they have created or have been made by other WeFoster community members. It's an extremely powerful feature that we're very proud of.
 
 #### Applying Stylekits
-
-  
 
 ### Appearance
 
@@ -143,13 +156,13 @@ Hide the Admin Bar to all visitors except WordPress Administrators. (recommended
 
 ### Typography
 
-Beautiful and balanced typography is an important part of any website and especially important for your community. You want your audience to keep coming back and a pleasant reading experience is a crucial factor. The Typography settings allow you to customise the fonts that are used on your site.  
+Beautiful and balanced typography is an important part of any website and especially important for your community. You want your audience to keep coming back and a pleasant reading experience is a crucial factor. The Typography settings allow you to customise the fonts that are used on your site.
 
 #### Global
 
 In this section you'll be presented with settings to change your font size, font family and Font Weight for your entire design. Once you have found a typography setting that you like press "Save Changes".
 
-![Typography](https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/typography-settings.gif)
+![Typography][5]
 
 ### BuddyPress
 
@@ -179,5 +192,10 @@ This area holds all the settings that affect the look of your Posts & Pages. Bel
 
 This is where you can set the height & width of your Featured Images and can apply different image effects to them.
 
-**About image resizing.**
-_Your featured images are resized by the WeFoster Theme automatically to fit the sizes you specify. This gives you a lot of flexibility in choosing the image size that you like. It does mean that when you change the image sizes these images need to be regenerated and saved again with their new dimension. If you have a lot of Featured Images this means a lot of additional space being used._
+**About image resizing.** *Your featured images are resized by the WeFoster Theme automatically to fit the sizes you specify. This gives you a lot of flexibility in choosing the image size that you like. It does mean that when you change the image sizes these images need to be regenerated and saved again with their new dimension. If you have a lot of Featured Images this means a lot of additional space being used.*
+
+ [1]: https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/menu-options.png
+ [2]: https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/menu-customiser.gif
+ [3]: https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/homepage-widgets.png
+ [4]: https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/homepage-widgets-customiser.gif
+ [5]: https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/typography-settings.gif

@@ -93,7 +93,7 @@ You can use the WordPress Customiser to get a live preview of your homepage whil
 1.  Go to Appearance > **Customize**
 2.  Click on > **Widgets**
 
-!\[Customiser Widget\]\[4\]
+![Customiser Widget][4]
 
 ### Changing the Homepage Layout
 
@@ -113,3 +113,4 @@ The homepage template can be extended via actions, filters and constants. Additi
  [1]: https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/menu-options.png
  [2]: https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/menu-customiser.gif
  [3]: https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/homepage-widgets.png
+ [4]: https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/homepage-widgets-customiser.gif

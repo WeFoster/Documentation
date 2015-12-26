@@ -51,16 +51,11 @@ As you can see Widgets are very powerful and allow you to truly customize the ex
 
 Never set up Menus before in WordPress? No worries, here are some videos on how Menus work
 
-**Video: Setting up Menus in WordPress**
+**Video: Setting up Menus in WordPress** [embed] https://www.youtube.com/watch?v=3TkXaoMIzQ4 [embed]
 
-<iframe id="ytplayer" type="text/html" width="640" height="390"
-  src="https://www.youtube.com/watch?v=3TkXaoMIzQ4?autoplay=1"
-  frameborder="0" /> 
-**Video: Setting up Menus via the WordPress Customizer**
+**Video: Setting up Menus via the WordPress Customizer** [embed]  
+https://www.youtube.com/watch?v=o6S2n6imgqM [embed]
 
-<iframe id="ytplayer"
-  src="https://www.youtube.com/watch?v=o6S2n6imgqM"
-  frameborder="0" /> 
 Your WeFoster Theme can have a maximum of three menus based on the layout you've chose in your appearance settings (more about those later)
 
 ![WordPress Menus][1]

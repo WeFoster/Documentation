@@ -26,10 +26,10 @@ If you don't like some of the icons we have chosen you can replace them with oth
 Sounds complicated? Please read the following **excellent** tutorials about using Google Chrome to easily find the CSS rule you need to use.
 
 **Video of using Chrome Developer Tools from WPTheming**  
-https://www.youtube.com/watch?v=j2IAPyohv5g
+[embed] https://www.youtube.com/watch?v=j2IAPyohv5g [embed]
 
 **Leveraging Chrome Developer Tools from WPMU.org**  
-https://premium.wpmudev.org/blog/chrome-developer-tools/
+[embed] https://premium.wpmudev.org/blog/chrome-developer-tools/ [embed]
 
 Done reading and watching and all up to speed about finding your CSS selectors? Now you have all the knowledge to replace icons. Let's get started!
 

@@ -1,13 +1,29 @@
 ---
 ID: 23
 post_title: Getting Started
-author: Bowe Frankema
-post_date: 2015-10-07 21:17:22
-post_excerpt: ""
+author:
+  - Bowe Frankema
+post_date:
+  - 2015-10-07 21:17:22
+post_excerpt:
+  - ""
 layout: wpkb-article
-permalink: >
-  https://documentation.wefoster.co/kb/getting-started/
+permalink:
+  - >
+    https://documentation.wefoster.co/kb/getting-started/
 published: true
+required_reading:
+  - ""
+further_reading:
+  - ""
+additional_reading:
+  - ""
+link_snippet_to_kb_article:
+  - ""
+page_hero_section:
+  - "0"
+activate_wf_builder:
+  - "0"
 ---
 This guide will take you through all the steps needed to quickly create a custom WeFoster Theme. We’ll show you exactly how you can easy customise the default theme and make them in a upgrade safe manner.
 
@@ -65,22 +81,23 @@ Download the WeFoster Child Theme to see how our recommended structure.
 
 Here’s a short summary of the things you can modify/overwrite or disable without having to touch the parent theme. Click on the titles to jump to the documentation.
 
-*   **Constants**: By simply defining a few constants in your theme you can build an entire custom layout easily.
-*   **Images** Quickly overwrite logo’s, avatars and other assets.
-*   **Stylesheets and Javascript files** All styles are compiled using LESS and allow you to mix and match exactly the components you need for your theme. Stop overwriting CSS from your child theme, simply compile one optimised CSS file.
-*   **Actions**: Overwrite actions to change where template parts (post meta, thumbnails, navigation) are displayed across the theme.
-*   **Filters**: Use filters to change layouts based on WordPress conditionals (hide the sidebar on archive pages, make the sidebar on single post pages wider etc). Filters can also be used to load different template parts conditionally.
-*   **Templates** (Overwrite any (BuddyPress) template or extend them using over 50 do_actions available in the templates.)
-*   **Function Overwrites** Overwrite existing functions to modify their functionality or prevent them from being loaded. Unload template parts or register additional sidebars for your theme. 
+*   [**Constants**][1]: By simply defining a few constants in your theme you can build an entire custom layout easily and quiclky ooverwrite logo’s, avatars and other assets.
+*   [**LESS Stylesheets and Javascript files**][2] All styles are compiled using LESS and allow you to mix and match exactly the components you need for your theme. Stop overwriting CSS from your child theme, simply compile one optimised CSS file.
+*   [**Actions**][3]: Overwrite actions to change where template parts (post meta, thumbnails, navigation) are displayed across the theme.
+*   [**Filters**][4]: Use filters to change layouts based on WordPress conditionals (hide the sidebar on archive pages, make the sidebar on single post pages wider etc). Filters can also be used to load different template parts conditionally.
+*   [**Templates**][5] (Overwrite any (BuddyPress) template or extend them using over 50 do_actions available in the templates.)
+*   [**Function Overwrites**][6] Overwrite existing functions to modify their functionality or prevent them from being loaded. Unload template parts or register additional sidebars for your theme. 
 
 ## Download a pre-made WeFoster Child Theme
 
-To help you get started quickly we’ve created a pre-made Child Theme that has some inline documentation and pre-made folder structures. This allows you to learn as you go and develop your child themes the same way as we do for our clients.
+To help you get started quickly we’ve created a pre-made Child Theme that has some inline documentation and pre-made folder structures. This allows you to learn as you go and develop your child themes the same way as we do for our clients. **We strongly recommend you to use this as a starting point.**
 
-[Download the WeFoster Child Theme][1]
+[Download the WeFoster Child Theme][7]
 
-### Check out our Developer Snippets
-
-https://github.com/WeFoster/developer-library
-
- [1]: https://www.dropbox.com/s/aaet25aktzme0ez/WeFoster-child.zip
+ [1]: https://documentation.wefoster.co/kb/constants/
+ [2]: https://documentation.wefoster.co/kb/using-less-and-grunt-to-generate-custom-stylesheets/
+ [3]: https://documentation.wefoster.co/kb/actions
+ [4]: https://documentation.wefoster.co/kb/filters
+ [5]: https://documentation.wefoster.co/kb/overwriting-templates/
+ [6]: https://documentation.wefoster.co/kb/advanced-functions-overwritingreplacingadding-new-functionality/
+ [7]: https://github.com/WeFoster/wefoster-child/archive/master.zip

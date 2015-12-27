@@ -16,7 +16,7 @@ page_hero_section:
 activate_wf_builder:
   - "1"
 further_reading:
-  - ""
+  - 'a:1:{i:0;s:2:"28";}'
 required_reading:
   - ""
 link_snippet_to_kb_article:
@@ -36,6 +36,8 @@ image_opacity:
 show_call_to_action_button:
   - 'No'
 add_block:
+  - ""
+additional_reading:
   - ""
 ---
 So now that we have learned about filter and constants, let’s look at how we can use actions to easily add new content (HTML/PHP/Loops etc) to your theme.
@@ -58,24 +60,39 @@ Simply do a search for do_action inside our GitHub repository to quick see an ov
 
 Maybe you are used to overwrite a template from your parent theme and then adding the html/php in the template inside your child theme. Like this:
 
-[gistpen id=210]
+    <div id="main-content" class="main <?php do_action('class_main'); ?>" role="main">
+        <?php
+        //Use to Load to Page Title. see lib/actions.php
+        do_action('before_page_content');
+        ?>
+    
+        <?php get_template_part('templates/loops/content', 'page'); ?>
+    
+        <div class="my-custom-content">
+          I should not overwrite templates when actions are available!
+        </div>
+    
+        <?php do_action('close_page_content'); ?>
+    </div><!-- /.main -->
+    
 
-This is some custom content after my page content is shown. I'm adding this by overwriting my template via a Child Theme!
+Actions are a much better way to do the same! You can simply add the following to functions.php of your Child Theme using the **"close_page_content"** action that is present inside the template.
 
-Actions are a much better way to do the same! You can simply add the following to functions.php of your Child Theme.
+    /**
+     * My custom content
+     *
+     */
+    function wft_custom_content() { ?>
+      <div class="my-custom-content">
+        I should not overwrite templates when actions are available!
+      </div>
+    <?
+    }
+    add_action( 'close_page_content','wft_custom_content' );  
+    
 
 This is a much better solution because overwriting templates means more maintenance! More important your templates will not be updated when the WeFoster Theme is updated so your template files need maintenance and might get out of date. So use actions to add your custom content to.
 
-Take a look at some of the examples below.
-
-## Code Examples
-
-### Insert HTML using an action
-
-### Load a template part using an action
-
-### Load a template part conditionally
-
-### Show message to a logged in user
+If you're looking for an easy way to find the available hooks take a look at the next tutorial about Finding and using hooks.
 
  [1]: https://github.com/WeFoster/wefoster/search?utf8=%E2%9C%93&q=do_action

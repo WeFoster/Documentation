@@ -58,38 +58,11 @@ Simply do a search for do_action inside our GitHub repository to quick see an ov
 
 *So why should I use actions instead of just adding my custom HTML or using get_template_part directly inside the templates*
 
-Maybe you are used to overwrite a template from your parent theme and then adding the html/php in the template inside your child theme. Like this:
+Maybe you are used to overwrite a template from your parent theme and then adding the html/php in the template inside your child theme. Below is an example of how to do it right and wrong.
 
-    <div id="main-content" class="main <?php do_action('class_main'); ?>" role="main">
-        <?php
-        //Use to Load to Page Title. see lib/actions.php
-        do_action('before_page_content');
-        ?>
-    
-        <?php get_template_part('templates/loops/content', 'page'); ?>
-    
-        <div class="my-custom-content">
-          I should not overwrite templates when actions are available!
-        </div>
-    
-        <?php do_action('close_page_content'); ?>
-    </div><!-- /.main -->
-    
+[gistpen id=381]
 
 Actions are a much better way to do the same! You can simply add the following to functions.php of your Child Theme using the **"close_page_content"** action that is present inside the template.
-
-    /**
-     * My custom content
-     *
-     */
-    function wft_custom_content() { ?>
-      <div class="my-custom-content">
-        I should not overwrite templates when actions are available!
-      </div>
-    <?
-    }
-    add_action( 'close_page_content','wft_custom_content' );  
-    
 
 This is a much better solution because overwriting templates means more maintenance! More important your templates will not be updated when the WeFoster Theme is updated so your template files need maintenance and might get out of date. So use actions to add your custom content to.
 

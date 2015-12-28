@@ -27,7 +27,7 @@ That being said we realize that shortcodes are incredibly useful and this is why
 
 ## Installing the Bootstrap Shortcodes plugin.
 
-The WeFoster theme is powered by Bootstrap, the most popular and flexible framework in the world. The Bootstrap Shortcode plugin provides you with a set of shortcodes that allow you to quickly insert custom content directly from your Post Editor. Here's how.
+The WeFoster theme is powered by Bootstrap, the most popular and flexible framework in the world. [The Bootstrap Shortcodes][1] plugin provides you with a set of shortcodes that allow you to quickly insert custom content directly from your Post Editor. Here's how.
 
 1.  Go to Plugins > **Add New**
 2.  Search for *Bootrap Shortcodes*
@@ -37,7 +37,7 @@ The WeFoster theme is powered by Bootstrap, the most popular and flexible framew
 
 Now that you have activated the Bootstrap Shortcodes plugin you can easily insert shortcodes via your post editor page. All shortcodes come with usage examples and a list of available shortcode options. Sweet!
 
-![Shortcodes][1]
+![Shortcodes][2]
 
 ## Available Shortcodes
 
@@ -53,7 +53,7 @@ Please refer to the Bootstrap Shortcodes documentation to see the shortcodes tha
 
 By default Shortcodes do not work in widgets but this can be easily solved. All you need to do is install a tiny plugin.
 
-[Download the Shortcodes in Widgets Plugin from WP.org][2]
+[Download the Shortcodes in Widgets Plugin from WP.org][3]
 
 After installing and activating this plugin you can use Shortcodes inside your widgets without a problem, but with one exception.
 
@@ -70,5 +70,6 @@ After installing and activating this plugin you can use Shortcodes inside your w
      add_action('wp_enqueue_scripts', 'wfd_load_shortcode_scripts');
     }
 
- [1]: https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/shortcodes.gif
- [2]: https://wordpress.org/plugins/shortcodes-in-sidebar-widgets/
+ [1]: https://wordpress.org/plugins/bootstrap-3-shortcodes/
+ [2]: https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/shortcodes.gif
+ [3]: https://wordpress.org/plugins/shortcodes-in-sidebar-widgets/

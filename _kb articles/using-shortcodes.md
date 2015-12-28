@@ -25,17 +25,17 @@ Shortcodes allow you to insert custom content easily. Sadly a lot of theme devel
 
 That being said we realize that shortcodes are incredibly useful and this is why we are recommending an excellent shortcode plugin that is 100% compatible with the WeFoster Theme.
 
-## Installing the Bootstrap Shortcodes plugin.
+## Installing the "Bootstrap Shortcodes for WordPress" plugin.
 
-The WeFoster theme is powered by Bootstrap, the most popular and flexible framework in the world. [The Bootstrap Shortcodes][1] plugin provides you with a set of shortcodes that allow you to quickly insert custom content directly from your Post Editor. Here's how.
+The WeFoster theme is powered by Bootstrap, the most popular and flexible framework in the world. [The Bootstrap Shortcodes for WordPress][1] plugin provides you with a set of shortcodes that allow you to quickly insert custom content directly from your Post Editor. Here's how.
 
 1.  Go to Plugins > **Add New**
-2.  Search for *Bootrap Shortcodes*
-3.  Install and Activate the plugin called **Bootstrap Shortcodes** by Filip Stefansson, Simon Yeldon, and Michael W. Delane.
+2.  Search for *Bootstrap Shortcodes for WordPress*
+3.  Install and Activate the plugin called **Bootstrap Shortcodes for WordPress** by Filip Stefansson, Simon Yeldon, and Michael W. Delane.
 
 ## Using the Shortcodes
 
-Now that you have activated the Bootstrap Shortcodes plugin you can easily insert shortcodes via your post editor page. All shortcodes come with usage examples and a list of available shortcode options. Sweet!
+Now that you have activated the Bootstrap Shortcodes for WordPress plugin you can easily insert shortcodes via your post editor page. All shortcodes come with usage examples and a list of available shortcode options. Sweet!
 
 ![Shortcodes][2]
 

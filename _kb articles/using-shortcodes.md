@@ -51,7 +51,11 @@ Please refer to the Bootstrap Shortcodes documentation to see the shortcodes tha
 
 ## Using Shortcodes in Widgets
 
-You can use Shortcodes inside your widgets without a problem with one exception.
+By default Shortcodes do not work in widgets but this can be easily solved. All you need to do is install a tiny plugin.
+
+[Download the Shortcodes in Widgets Plugin from WP.org][2]
+
+After installing and activating this plugin you can use Shortcodes inside your widgets without a problem, but with one exception.
 
 **The Tooltip and Popover Shortcodes might not work as expected** This is because the javascript is only loaded when the shortcode is present inside your post or page content. If you add these shortcodes to your sidebar widgets and not to your post/page content the javascript will not be loaded. If you would like to use these shortcodes inside your widgets add the following to functions.php of your child theme.
 
@@ -67,3 +71,4 @@ You can use Shortcodes inside your widgets without a problem with one exception.
     }
 
  [1]: https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/shortcodes.gif
+ [2]: https://wordpress.org/plugins/shortcodes-in-sidebar-widgets/

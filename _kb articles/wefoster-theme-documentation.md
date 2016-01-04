@@ -13,11 +13,11 @@ permalink:
     https://documentation.wefoster.co/kb/wefoster-theme-documentation/
 published: true
 wpkb_rating_perc:
-  - 'a:1:{i:0;s:3:"100";}'
+  - "90"
 required_reading:
   - ""
 further_reading:
-  - ""
+  - 'a:3:{i:0;s:3:"371";i:1;s:3:"361";i:2;s:3:"364";}'
 additional_reading:
   - ""
 link_snippet_to_kb_article:
@@ -55,7 +55,7 @@ Never set up Menus before in WordPress? No worries, here are some videos on how 
 [embed]https://www.youtube.com/watch?v=3TkXaoMIzQ4[/embed]
 
 **Video: Setting up Menus via the WordPress Customizer**  
-[embed]https://www.youtube.com/watch?v=o6S2n6imgqM /embed]
+[embed]https://www.youtube.com/watch?v=o6S2n6imgqM[/embed]
 
 Your WeFoster Theme can have a maximum of three menus based on the layout you've chose in your appearance settings (more about those later)
 
@@ -105,10 +105,6 @@ Depending on your needs you can customize the appearance of your homepage. You c
 2.  Click on > **Homepage**
 
 Here you'll see the available layout options for your homepage. Once you are done customizing save your changes and that's all there is to it!
-
-### Extending the Homepage (Developers & Advanced Users)
-
-The homepage template can be extended via actions, filters and constants. Additionally you can overwrite the template contents inside your child theme. Take a look at the additional reading links at the bottom of this article.
 
  [1]: https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/menu-options.png
  [2]: https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/menu-customiser.gif

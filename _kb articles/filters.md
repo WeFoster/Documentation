@@ -1,13 +1,31 @@
 ---
 ID: 25
 post_title: Filters
-author: Bowe Frankema
-post_date: 2015-10-07 21:18:38
-post_excerpt: ""
+author:
+  - Bowe Frankema
+post_date:
+  - 2015-10-07 21:18:38
+post_excerpt:
+  - ""
 layout: wpkb-article
-permalink: >
-  https://documentation.wefoster.co/kb/filters/
+permalink:
+  - >
+    https://documentation.wefoster.co/kb/filters/
 published: true
+wpkb_rating_perc:
+  - "90"
+required_reading:
+  - 'a:2:{i:0;s:2:"23";i:1;s:2:"24";}'
+further_reading:
+  - ""
+additional_reading:
+  - ""
+link_snippet_to_kb_article:
+  - ""
+page_hero_section:
+  - "0"
+activate_wf_builder:
+  - "0"
 ---
 So now that we have learned about constants, let’s look at how we can use filters to build more advanced layouts. When you are building themes in most cases you will need to get of the grid for certain sections of your site. This is where filters come in handy.
 

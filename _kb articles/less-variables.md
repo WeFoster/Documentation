@@ -1,13 +1,31 @@
 ---
 ID: 31
 post_title: LESS Variables
-author: Bowe Frankema
-post_date: 2015-10-07 21:23:47
-post_excerpt: ""
+author:
+  - Bowe Frankema
+post_date:
+  - 2015-10-07 21:23:47
+post_excerpt:
+  - ""
 layout: wpkb-article
-permalink: >
-  https://documentation.wefoster.co/kb/less-variables/
+permalink:
+  - >
+    https://documentation.wefoster.co/kb/less-variables/
 published: true
+wpkb_rating_perc:
+  - "90"
+required_reading:
+  - 'a:1:{i:0;s:2:"30";}'
+further_reading:
+  - ""
+additional_reading:
+  - ""
+link_snippet_to_kb_article:
+  - ""
+page_hero_section:
+  - "0"
+activate_wf_builder:
+  - "0"
 ---
 So now that you learned about installing Node & Grunt to compile your LESS files and how to compile a custom LESS stylesheet inside our Child Theme that replaces the default CSS, let’s take a look at how we can use the LESS variables in the WeFoster theme to quickly generate completely custom themes.
 

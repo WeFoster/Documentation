@@ -20,6 +20,8 @@ page_hero_section:
   - "0"
 activate_wf_builder:
   - "0"
+wpkb_rating_perc:
+  - "10"
 ---
 Icons are a great way to improve navigation and improve the experience of your users when interacting with your community. By default the WeFoster theme uses icons in various places across your site. The icon font we use is called Font Awesome, and there are a lot of icons to choose from to further customise your site.
 
@@ -52,8 +54,20 @@ To add an icon to a menu link do the following.
 1.  When you are in the Post Editor, click on the **Text Tab**
 2.  Paste the HTML of the icon where you want to insert it. See the screenshot below.
 
-![Using Icons in Content][3]
+## Using Icons in Widget Titles
+
+To use your icons in widget titles you need to use a special shortcode. Here's an example of the shortcode to use:
+
+    [fa-icon type=umbrella]
+    
+
+In the above example "umbrella" is the name of the icon class on FontAwesome. It should look something like this:
+
+![Widget Shortcodes][3]
+
+![Using Icons in Content][4]
 
  [1]: https://fontawesome.io/icons/
  [2]: https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/icon-menus.png
- [3]: https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/icon-content.png
+ [3]: https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/widget-shortcodes.png
+ [4]: https://raw.githubusercontent.com/WeFoster/Documentation/master/screenshots/icon-content.pn
